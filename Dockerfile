@@ -9,4 +9,5 @@ RUN apt-get update && \
 WORKDIR /ansible
 #
 # Run the Ansible playbook
+ENTRYPOINT ["/bin/bash"]
 #
